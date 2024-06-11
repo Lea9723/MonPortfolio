@@ -58,7 +58,7 @@ font-size: 150px
 
 section {
     max-width: 900px;
-    margin: 10rem auto;
+    margin: 15rem auto;
     padding: 2rem;
     text-align: center;
 }
@@ -94,7 +94,7 @@ section > a {
 #projets{
     background-color: rgb(162, 53, 177, 0.295);
     border-radius: 10%;
-    margin: 0 auto;
+    margin-top: 15rem;
     padding: 2rem;
 
 }
@@ -107,7 +107,11 @@ section > a {
     
 }
 
-
+a.card{
+    text-decoration: none;
+    text-shadow: rgb(224, 170, 202)  1px 1px 1px;
+    color: rgb(59, 56, 56);
+}
 
 .card{
     position: relative;
@@ -131,8 +135,8 @@ section > a {
 
 .card:hover {
     transform: scale(1.05); /* Zoomer la carte à 105% */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Augmenter l'ombre pour un effet de profondeur */
-    background-color: rgba(0, 0, 0, 0.5); /* Arrière-plan semi-transparent gris au survol */
+    box-shadow: 0 4px 8px rgba(0, 0, 1, 0.3); /* Augmenter l'ombre pour un effet de profondeur */
+    background-color: rgba(248, 243, 243, 0.021); /* Arrière-plan semi-transparent gris au survol */
 }
 
 
@@ -156,7 +160,7 @@ section > a {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 1.5em;
+    font-size: 1em;
     text-align: center;
     opacity: 0; /* Masquer par défaut */
     transition: opacity 0.3s ease; /* Animation fluide de l'opacité */
@@ -167,6 +171,8 @@ section > a {
 .card:hover .description {
     opacity: 1; /* Afficher le texte descriptif au survol */
 }
+
+
 
 .skills-container {
     display: flex;
@@ -233,7 +239,10 @@ section > a {
    }
    
 
-
+#contact{
+    background-color: rgba(162, 53, 177, 0.295);
+    border-radius: 10 rem
+}
 
 
 
