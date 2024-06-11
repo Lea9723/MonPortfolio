@@ -102,14 +102,17 @@ section > a {
 
 
 .card{
+    position: relative;
     background-color: #f9f9f9; /* Couleur de fond de la carte */
     border: 1px solid #ddd; /* Bordure de la carte */
     border-radius: 8px; /* Coins arrondis */
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Ombre de la carte */
+    box-shadow: 0 2px 4px rgba(92, 89, 89, 0.1); /* Ombre de la carte */
     padding: 16px; /* Padding à l'intérieur de la carte */
     text-align: center; /* Centrer le texte à l'intérieur de la carte */
-   
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Ajout de la transition pour une animation fluide */
+    transition: background-color 0.3s ease;
 }
+
 
 
 .card p{
@@ -118,11 +121,43 @@ section > a {
     font-weight: bold; /* Mettre le texte en gras */
 }
 
+.card:hover {
+    transform: scale(1.05); /* Zoomer la carte à 105% */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Augmenter l'ombre pour un effet de profondeur */
+    background-color: rgba(0, 0, 0, 0.5); /* Arrière-plan semi-transparent gris au survol */
+}
+
+
+
 
 .card img{
     max-width: 100%; /* S'assurer que l'image ne dépasse pas la largeur de la carte */
     height: auto; /* Garder le ratio de l'image */
     margin-bottom: 8px; /* Marge en dessous de l'image */
+    transition: opacity 0.3s ease; /* Animation fluide de changement d'opacité */
+}
+
+.card:hover img {
+    opacity: 0; /* Rendre l'image semi-transparente au survol */
+}
+
+.card .description {
+    /* display: none;  */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    opacity: 0; /* Masquer par défaut */
+    transition: opacity 0.3s ease; /* Animation fluide de l'opacité */
+}
+
+
+
+.card:hover .description {
+    opacity: 1; /* Afficher le texte descriptif au survol */
 }
 
 .skills-container {
@@ -193,9 +228,6 @@ section > a {
 
 
 
-#contact{
-    /* background-color: deeppink; */
-}
 
 .linkBtn {
     /* color: var(--accent-color); */

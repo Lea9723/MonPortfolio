@@ -12,3 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
         element2.classList.add('animate__animated', 'animate__fadeInLeftBig');
     }, 1500); // 3 secondes de délai
 });
+
+
+
+
