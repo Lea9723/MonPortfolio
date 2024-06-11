@@ -19,7 +19,7 @@ body{
 
 header{
     background-color: rgba(103, 13, 155, 0.685);
-    height: 60%;
+    height: 50%;
     width: 100%;
     padding: 4rem;
     left: 0;
@@ -30,13 +30,31 @@ header{
 #animate1{
 font-size: 9rem;
 text-align: center;
+font-family: "Times New Roman", Times, serif;
+letter-spacing: 2px;
+word-spacing: 2px;
+color: #000000;
+font-weight: normal;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: none;
 
 }
 
 
 h4{
-    padding: 10%;
-    font-size: larger;
+    padding: 6%;
+    font-size: larger;font-family: "Times New Roman", Times, serif;
+/* font-size: 25px; */
+letter-spacing: 2px;
+word-spacing: 2px;
+color: #000000;
+font-weight: normal;
+text-decoration: none;
+font-style:normal;
+font-variant: normal;
+text-transform: none;
 
 }
 
@@ -60,7 +78,7 @@ font-size: 150px
 
 
 section {
-    max-width: 900px;
+    max-width: 1000px;
     margin: 15rem auto;
     padding: 2rem;
     text-align: center;
@@ -115,7 +133,7 @@ section > a {
 #projets .grid{
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* Deux colonnes de largeur égale */
-    gap: 20px; /* Espace entre les cartes */
+    gap: 80px; /* Espace entre les cartes */
     justify-content: center; /* Centrer la grille */
     
 }
@@ -138,6 +156,7 @@ a.card{
     text-align: center; /* Centrer le texte à l'intérieur de la carte */
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Ajout de la transition pour une animation fluide */
     transition: background-color 0.3s ease;
+    
 }
 
 
