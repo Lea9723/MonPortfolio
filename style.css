@@ -42,6 +42,9 @@ h4{
 
 article > h1{
 text-align: center ;
+font-family: "Lucida Console", Monaco, monospace;
+color: #FFFFFF;
+text-shadow: 3px 3px 0 #070e18, 3px -3px 0 #4074b5, -3px 3px 0 #4074b5, -3px -3px 0 #4074b5, 3px 0px 0 #4074b5, 0px 3px 0 #4074b5, -3px 0px 0 #4074b5, 0px -3px 0 #4074b5;
 font-size: 150px
 }
 
@@ -83,6 +86,16 @@ section > h2 {
 .presentation{
 background-color: rgb(243, 247, 247);
 border-radius: 10%;
+font-family: "Lucida Console", Monaco, monospace;
+font-size: 14px;
+letter-spacing: 0px;
+word-spacing: 0.6px;
+color: #000000;
+font-weight: normal;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: none;
 }
 
 
@@ -92,7 +105,7 @@ section > a {
 }
 
 #projets{
-    background-color: rgb(162, 53, 177, 0.295);
+    background-color: rgba(162, 53, 177, 0.76);
     border-radius: 10%;
     margin-top: 15rem;
     padding: 2rem;
@@ -109,8 +122,10 @@ section > a {
 
 a.card{
     text-decoration: none;
-    text-shadow: rgb(224, 170, 202)  1px 1px 1px;
     color: rgb(59, 56, 56);
+    font-family: "Lucida Console", Monaco, monospace;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 0 #070e18, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5;
 }
 
 .card{
@@ -118,7 +133,7 @@ a.card{
     background-color: #f9f9f9; /* Couleur de fond de la carte */
     border: 1px solid #ddd; /* Bordure de la carte */
     border-radius: 8px; /* Coins arrondis */
-    box-shadow: 0 2px 4px rgba(92, 89, 89, 0.1); /* Ombre de la carte */
+    box-shadow: 0 2px 4px rgba(92, 89, 89, 0.596); /* Ombre de la carte */
     padding: 16px; /* Padding à l'intérieur de la carte */
     text-align: center; /* Centrer le texte à l'intérieur de la carte */
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Ajout de la transition pour une animation fluide */
@@ -135,7 +150,7 @@ a.card{
 
 .card:hover {
     transform: scale(1.05); /* Zoomer la carte à 105% */
-    box-shadow: 0 4px 8px rgba(0, 0, 1, 0.3); /* Augmenter l'ombre pour un effet de profondeur */
+    box-shadow: 0 4px 8px rgba(0, 0, 1, 0.788); /* Augmenter l'ombre pour un effet de profondeur */
     background-color: rgba(248, 243, 243, 0.021); /* Arrière-plan semi-transparent gris au survol */
 }
 
@@ -160,6 +175,7 @@ a.card{
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+    text-shadow: rgb(59, 57, 57) 1px 1px ;
     font-size: 1em;
     text-align: center;
     opacity: 0; /* Masquer par défaut */
@@ -224,18 +240,19 @@ a.card{
 
   .grid-savoir-etre{
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    flex-direction: column; /* Align children in a column */
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column; 
 
   } 
   
-   /* Styles pour les sections contenant les logos */
+ 
    .logos {
+
     display: flex;
     flex-direction: column;
     align-items: center; /* Centrer les logos horizontalement */
-    margin: 5px; /* Espacement entre les logos */
+    margin: 3px; /* Espacement entre les logos */
    }
    
 
