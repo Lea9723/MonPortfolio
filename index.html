@@ -8,8 +8,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <title>LS's Portfolio</title>
     <script defer src="script.js"></script> 
-    <!-- <link rel="icon" href="lienphoto ou image"> -->
-    <!-- <script  defer type="module" src="script.js"></script> -->
 </head>
 
 
@@ -17,14 +15,14 @@
 
 <header>
 <div class="container">
-     <button title="Color scheme" id="colorScheme" class="light"><img src="logos/icons8-light-on-48.png" alt=""></button>
+     <!-- <button title="Color scheme" id="colorScheme" class="light"><img src="logos/icons8-light-on-48.png" alt=""></button> -->
 </div>    
        <main id="intro">
         <img>
          <article> 
             <h2 id="animate1">Pâtissière</h2>
             <h1 id="animate2"  class="hidden">Développeuse</h1>
-            <section class="presentation">
+            <section id="story" class="presentation">
                 <img src="logos/avatar.png" alt="avatar">
                     <h2>Hi! I'm Léa ! </h2>
                          <p><h4> Me voici me voilà !  <br>Je débarasse mon plan de travail, range mes ustentiles de cuisine et dis au revoir 
@@ -44,61 +42,54 @@
     <h2>Projets</h2>
     <div class="grid">
                 <a href="https://dataviz-pi.vercel.app/" class="card"><img src="project_img/dataviz.png" alt="screenshot"><p class="description">Fetch d'une API de recettes de coktails <br> (HTML Java Script CSS JSON)</p><h3>Dataviz</h3></a>
-                <a href="" class="card"><img src="project_img/extenson_nav.png" alt="screenshot"><p class="description">Développement d'une extension Chrome qui permet de visualiser par une photo une personnalité choisie et d'avoir
+                <a href="https://github.com/adatechschool/extension-navigateur-extension_lea_aurelien_nadege" class="card"><img src="project_img/extenson_nav.png" alt="screenshot"><p class="description">Développement d'une extension Chrome qui permet de visualiser par une photo une personnalité choisie et d'avoir
                     sa courte description via l'API de Wikipédia <br> (HTML Java Script CSS JSON - Manifest)</p><p>"Who?"</p></a>
-                    <a href="" class="card"><img src="project_img/onmeuble.png" alt="screenshot"><p class="description">Développement d'une plateforme de E-commerce <br> 
+                    <a href="https://github.com/Lea9723/onmeuble" class="card"><img src="project_img/onmeuble.png" alt="screenshot"><p class="description">Développement d'une plateforme de E-commerce <br> 
                     (React - CSS- Node Js Express- Création d'une BDD avec Supabase)</p><p>On Meuble</p></a>
                     <a href="https://is-palindrome.vercel.app/" class="card"><img src="project_img/isPalindrome.png" alt="screenshot"><p class="description">HTML-Java Script-CSS</p><p>Is Palindrome</p></a>
                     <a href="https://latin-to-morse-y9ae.vercel.app/" class="card"><img src="project_img/LatinToMorse.png" alt="screenshot"><p class="description">HTML-Java Script-CSS</p><p>Latin to Morse</p></a>
-                    <a href="" class="card" class="projet"><p class="description">Développement d'un application Android qui recense les meilleurs spots de surf en France <br>
+                    <a href="https://github.com/adatechschool/projet-collectif-mobile-surf_and_go" class="card" class="projet"><p class="description">Développement d'une application Android qui recense les meilleurs spots de surf en France <br>
                     (AndroidSudio - KOTLIN - GOLANG - MongoDB - fetch API météo & créaton d'une deuxième API) </p><p>Surf & Go</p></a> 
                     
-                </div>
-            </section>
+     </div>
+</section>
 
-            <section id="skills"><h2>Skills</h2>
-                <div class="grid">
-            
-                     <h3>Compétences</h3>
-                       <!-- <div class=" grid-competences"> -->
-                         <div class="skills-container">
-                            <section class="logos"><img src="logos/icons8-html-48.png" alt="logo html"><p>HTML</p></section>
-                            <section class="logos"><img src="logos/icons8-css-48.png" alt="logo css"><p>CSS</p></section>
-                            <section class="logos"><img src="logos/icons8-javascript-48.png" alt="logo html"><p>JAVA SCRIPT</p></section>
-                            <section class="logos"><img src="logos/icons8-kotlin-48.png" alt="logo html"><p>KOTLIN</p></section>
-                            <section class="logos"><img src="logos/icons8-react-native-48.png" alt="logo html"><p>REACT NATIVE</p></section>
-                            <section class="logos"><img src="logos/icons8-php-48.png" alt="logo php"><p>PHP</p></section>
-                            <section class="logos"><img src="logos/icons8-express-js-48.png" alt="logo express"><p>EXPRESS</p></section>
-                            <section class="logos"><img src="logos/icons8-nœud-js-48.png" alt="logo node">  <p>NODE JS</p></section> 
-                            <section class="logos"><img src="logos/icons8-golang-48.png" alt="logo node">  <p>GOLANG</p></section> 
-                            <section class="logos"><img src="logos/icons8-mysql-logo-48.png" alt="logo node">  <p>MySQL</p></section> 
-            
-                        <!-- </div>     -->
-                         </div>
-                       </div>
-            
-                    <h3>Savoir-être</h3>
-                       <!-- <div class="grid-savoir-etre"> -->
-                        <div class="skills-container">
-            
-                            <section class="logos">Réactivité<img src="emoji/reactivite.png" alt="emoji_doigts"></section>
-                            <section class="logos">Travail d'équipe<img src="emoji/teamworking.png" alt="emoji_mains"></section>
-                            <section class="logos">Sens de l'écoute<img src="emoji/ecoute.png" alt="emoji_oreille"></section>
-                            <section class="logos">Sens de l'organisation<img src="emoji/organisation.png" alt="emoji_boulier"></section>
-                            <section class="logos">Rigueur<img src="emoji/rigueur.png" alt="emoji_steminist"></section>
-                            <section class="logos">Créativité<img src="emoji/creativite.png" alt="emoji_palette"></section>
-            
-                            
-                          
-                      </div>
-                   <!--  -->
-                </div>
-            </section>
-     <section id="contact">
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="grid">
+        <h3>Compétences</h3>
+        <div class="hardskills-container">
+            <div class="logos"><img src="logos/icons8-html-48.png" alt="logo html"><p>HTML</p></div>
+            <div class="logos"><img src="logos/icons8-css-48.png" alt="logo css"><p>CSS</p></div>
+            <div class="logos"><img src="logos/icons8-javascript-48.png" alt="logo js"><p>JavaScript</p></div>
+            <div class="logos"><img src="logos/icons8-kotlin-48.png" alt="logo kotlin"><p>Kotlin</p></div>
+            <div class="logos"><img src="logos/icons8-react-native-48.png" alt="logo react"><p>React Native</p></div>
+            <div class="logos"><img src="logos/icons8-php-48.png" alt="logo php"><p>PHP</p></div>
+            <div class="logos"><img src="logos/icons8-express-js-48.png" alt="logo express"><p>Express</p></div>
+            <div class="logos"><img src="logos/icons8-nœud-js-48.png" alt="logo node"><p>Node.js</p></div>
+            <div class="logos"><img src="logos/icons8-golang-48.png" alt="logo golang"><p>Golang</p></div>
+            <div class="logos"><img src="logos/icons8-mysql-logo-48.png" alt="logo mysql"><p>MySQL</p></div>
+        </div>
+        
+        <h3>Savoir-être</h3>
+        <div class="softskills-container">
+            <div class="logos"><p>Réactivité</p><img src="emoji/reactivite.png" alt="emoji reactivité"></div>
+            <div class="logos"><p>Travail d'équipe</p><img src="emoji/teamworking.png" alt="emoji teamwork"></div>
+            <div class="logos"><p>Sens de l'écoute</p><img src="emoji/ecoute.png" alt="emoji écoute"></div>
+            <div class="logos"><p>Sens de l'organisation</p><img src="emoji/organisation.png" alt="emoji organisation"></div>
+            <div class="logos"><p>Rigueur</p><img src="emoji/rigueur.png" alt="emoji rigueur"></div>
+            <div class="logos"><p>Créativité</p><img src="emoji/creativite.png" alt="emoji créativité"></div>
+        </div>
+    </div>
+</section>
+
+
+ <section id="contact">
          <h2>Contact</h2>
-         <p>email : leastattner@gmail.com</p>
+         <p>E-mail : <a href="mailto:leastattner@gmail.com">leastattner@gmail.com</a></p>
+        <div><img id="pdf" src="CV/icons8-export-pdf-50.png" alt=""><a id="resume" href="CV/CV.pdf" download="Léa_STATTNER_CV.pdf">Télécharger le CV </a></div>
          
-         <a href="#intro" class="linkBtn">
+         <a href="#story" class="linkBtn">
             Back to top
             <span><img class="arrow-icon" src="logos/icons8-flech-en-haut-24.png" alt="flecheicon"></span>
         </a>
@@ -111,7 +102,7 @@
          <a  target="blank" style="--footer-index: 1" title="linkedIn" href="https://www.linkedin.com/in/l%C3%A9a-stattner-346b9b16b/">
                 <img src="logos/icons8-linkedin-48.png" alt="logo linkedIn"></a>
     
-    </footer>
+    </footer>re 
     
 </body>
 </html>
